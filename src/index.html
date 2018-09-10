@@ -1,10 +1,23 @@
 <!doctype html>
 <html>
 <head>
+    <script>
+        var loc = ""+document.location;
+        var base = "/";
+        if(loc.indexOf("file:/") == 0 ||loc.indexOf("http:/") == 0)
+        {
+        //alert("adadad");
+        var i = loc.lastIndexOf("/");
+        //alert("Inside,..."+i);
+        base = loc.substring(0,i+1);
+        }
+        document.write("<base href='" + base + "' />");
+        //alert(document.location);
+        </script>
+
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
-  <base href="/">
-  <title>AngularNgrxMaterialStarter</title>
+  <title>Orbi Seed International</title>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -68,7 +81,7 @@
     }
   </style>
 </head>
-<body>
+<body style="background-image:url(./assets/intro.jpg)">
   <orbi-root>
     <div class="app-loading">
       <div class="logo"></div>
