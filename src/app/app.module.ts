@@ -1,7 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
-import { NgxHmCarouselModule } from 'ngx-hm-carousel';
 
 import { SharedModule } from '@app/shared';
 import { CoreModule } from '@app/core';
@@ -13,6 +12,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {MatExpansionModule} from '@angular/material/expansion';
 import {HttpClientModule} from '@angular/common/http';
+import { NguCarouselModule } from '@ngu/carousel';
 
 
 
@@ -21,7 +21,6 @@ import {HttpClientModule} from '@angular/common/http';
     // angular
     BrowserAnimationsModule,
     BrowserModule,
-    NgxHmCarouselModule,
 
     // core & shared
     CoreModule,
@@ -30,6 +29,7 @@ import {HttpClientModule} from '@angular/common/http';
     // features
     StaticModule,
     SettingsModule,
+    NguCarouselModule,
 
     // app
     AppRoutingModule,
