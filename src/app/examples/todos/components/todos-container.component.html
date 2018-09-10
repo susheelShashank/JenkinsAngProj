@@ -1,0 +1,85 @@
+<div class="container">
+  <div class="row">
+    <div class="offset-md-2 col-md-8 entry">
+      <orbi-big-input [placeholder]="'orbi.examples.todos.input' | translate"
+                      [value]="newTodo"
+                      (keyup)="onNewTodoChange($event.target.value)"
+                      (keyup.enter)="!isAddTodoDisabled && onAddTodo()"
+                      (keyup.escape)="onNewTodoClear()">
+        <orbi-big-input-action fontSet="fas" fontIcon="fa-plus" color="accent"
+                               (action)="onAddTodo()"
+                               [disabled]="isAddTodoDisabled"
+                               [matTooltip]="'orbi.examples.todos.tooltip.add' | translate"
+                               matTooltipPosition="before">
+        </orbi-big-input-action>
+        <orbi-big-input-action fontSet="fas" fontIcon="fa-trash" color="warn"
+                               (action)="onRemoveDoneTodos()"
+                               [disabled]="isRemoveDoneTodosDisabled"
+                               matTooltip="Remove done todos"
+                               [matTooltip]="'orbi.examples.todos.tooltip.remove' | translate"
+                               matTooltipPosition="after">
+        </orbi-big-input-action>
+      </orbi-big-input>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <h2>
+        {{ 'orbi.examples.todos.list' | translate }}
+        <button class="todos-filter" mat-icon-button [matMenuTriggerFor]="todosFilter">
+          <mat-icon fontSet="fas" fontIcon="fa-filter"></mat-icon>
+        </button>
+        <mat-menu class="todos-filter-menu-overlay" #todosFilter="matMenu" xPosition="before">
+          <button mat-menu-item (click)="onFilterTodos('ALL')" [ngClass]="{ active: todos.filter === 'ALL' }">
+            <mat-icon fontSet="fas" fontIcon="fa-tasks"></mat-icon>
+            <span>{{ 'orbi.examples.todos.filter.all' | translate }}</span>
+          </button>
+          <button mat-menu-item (click)="onFilterTodos('DONE')" [ngClass]="{ active: todos.filter === 'DONE' }">
+            <mat-icon fontSet="fas" fontIcon="fa-check"></mat-icon>
+            <span>{{ 'orbi.examples.todos.filter.done' | translate }}</span>
+          </button>
+          <button mat-menu-item (click)="onFilterTodos('ACTIVE')" [ngClass]="{ active: todos.filter === 'ACTIVE' }">
+            <mat-icon fontSet="fas" fontIcon="fa-square"></mat-icon>
+            <span>{{ 'orbi.examples.todos.filter.active' | translate }}</span>
+          </button>
+        </mat-menu>
+        <mat-chip-list class="todos-filter-info d-none d-sm-block">
+          <mat-chip>
+            {{ 'orbi.examples.todos.filter.description' | translate }} {{todos.filter !==
+            'ALL' ? filteredTodos.length : ''}}
+            {{ ('orbi.examples.todos.filter.' + todos.filter.toLowerCase() |
+            translate).toLowerCase() }}
+            {{todos.filter === 'ALL' ? filteredTodos.length : ''}}
+            {{ 'orbi.examples.todos.filter.items' | translate }}
+          </mat-chip>
+        </mat-chip-list>
+      </h2>
+      <mat-card *ngFor="let todo of filteredTodos" class="todo"
+                [ngClass]="routeAnimationsElements">
+        <mat-checkbox class="todo-done" [checked]="todo.done" (change)="onToggleTodo(todo)"></mat-checkbox>
+        <span class="todo-label"
+              [ngClass]="{ 'todo-label-done': todo.done }"
+              (click)="onToggleTodo(todo)">
+          &nbsp;{{todo.name}}&nbsp;
+        </span>
+      </mat-card>
+      <br>
+      <br>
+    </div>
+    <div class="offset-md-1  col-md-5">
+      <h2>{{ 'orbi.examples.todos.example' | translate }}</h2>
+      <p>
+        {{ 'orbi.examples.todos.text1' | translate }}
+        <code>{{ 'orbi.examples.todos.text2' | translate }}</code>
+        {{ 'orbi.examples.todos.text3' | translate }}
+      </p>
+      <p>
+        {{ 'orbi.examples.todos.text4' | translate }} <code>ngrx</code>
+        {{ 'orbi.examples.todos.text5' | translate }}
+      </p>
+      <p>{{ 'orbi.examples.todos.text6' | translate }}</p>
+      <br>
+    </div>
+  </div>
+
+</div>

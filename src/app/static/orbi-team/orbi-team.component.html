@@ -1,0 +1,45 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="main-heading">{{ 'orbi.team.screenTitle' | translate }}</h1>
+          </div>
+        <div *ngFor="let person of persons" class="col-lg-4 col-sm-6 portfolio-item">
+            <mat-card>
+          <div class="card h-100">
+            <img mat-card-image class="card-img-top" style="min-height:350px;"src="{{getImgPath(person.img)}}" width="345px" height="200px" alt="{{person.name}}">
+            <div class="card-body">
+              <h4 class="card-title"><a [routerLink]="['/person', person.name]">{{person.name}}</a></h4>
+              <h5 class="card-title">{{person.title}}</h5>
+              <h6 class="card-title">{{person.qualification}}</h6>
+              <div class="row">
+                <div class="col-lg-2 col-sm-2"><img src="assets/imgs//orbi/team/phone.png"></div>
+                <div class="col-lg-10 col-sm-10">
+                  <a href="tel:{{person.contact}}">{{person.contact}}</a></div>
+              </div>
+              <div class="row">
+                  <div class="col-lg-2 col-sm-2"><img src="assets/imgs//orbi/team/whatsapp.png"></div>
+                  <div class="col-lg-10 col-sm-10">
+                    <a href="whatsapp://send?abid={{person.whatsapp}}&text=Hello%2C%20ORBI!">{{person.whatsapp}}</a>
+                  </div>
+                </div>
+              <div class="row">
+                  <div class="col-lg-2 col-sm-2"><img src="assets/imgs//orbi/team/email.png"></div>
+                  <div class="col-lg-10 col-sm-10">
+                    <a href="mailto:{{person.email}}">{{person.email}}</a>
+                  </div>
+                </div>
+                <br>
+              <!-- p class="card-text">{{person.summary}}</p-->
+            </div>
+            <div class="card-footer cardFooterOrbi" style="background-color:white;">
+                <a href="{{person.twitter}}"><img src="assets/imgs//orbi/team/twitter.png"></a>
+                <a href="{{person.facebook}}"><img src="assets/imgs/orbi/team/facebook.png"></a>
+                <a href="{{person.in}}"><img src="assets/imgs//orbi/team/in.png"></a>
+                <a href="{{person.youtube}}"><img src="assets/imgs/orbi/team/utube.png"></a>
+                <a [routerLink]="['/person', person.name]" class="btnPrimaryOrbi" style="float:right" >Know More >></a>
+              </div>
+          </div>
+        </mat-card>
+        </div>
+    </div>
+            </div>

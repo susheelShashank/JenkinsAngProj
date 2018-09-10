@@ -1,0 +1,69 @@
+{
+  "orbi.examples.menu.todos": "Recordatorios",
+  "orbi.examples.menu.stocks": "Acciones",
+  "orbi.examples.menu.theming": "Tematización",
+  "orbi.examples.menu.auth": "Autenticación",
+  "orbi.examples.todos.input": "Voy a ...",
+  "orbi.examples.todos.tooltip.add": "Nuevo recordatorio",
+  "orbi.examples.todos.tooltip.remove": "Eliminar completados",
+  "orbi.examples.todos.list": "Lista de recordatorios",
+  "orbi.examples.todos.example": "Ejemplo de recordatorio",
+  "orbi.examples.todos.text1": "Este es un ejemplo clásico de",
+  "orbi.examples.todos.text2": "recordatorio",
+  "orbi.examples.todos.text3":
+    " con soporte para agregar, alternar, eliminar y filtrar los recordatorios pendientes.",
+  "orbi.examples.todos.text4":
+    "El manejo del estado se implementa usando el módulo",
+  "orbi.examples.todos.text5":
+    "y soporte para reductores de carga perezosa (este es un módulo de función de carga perezosa).",
+  "orbi.examples.todos.text6":
+    "Los recordatorios son almacenados localmente, por lo que debería verlos en visitas posteriores cuando use el mismo navegador.",
+  "orbi.examples.todos.filter.all": "Todos",
+  "orbi.examples.todos.filter.done": "Hechos",
+  "orbi.examples.todos.filter.active": "Activos",
+  "orbi.examples.todos.filter.description": "Mostrando",
+  "orbi.examples.todos.filter.items": "recordatorios",
+  "orbi.examples.todos.filter.item": "recordatorio",
+  "orbi.examples.stocks.title": "Mercado de valores",
+  "orbi.examples.stocks.symbol": "Símbolo de la acción",
+  "orbi.examples.stocks.description":
+    "Proporcione algún símbolo válido del mercado de valores como por ejemplo:",
+  "orbi.examples.stocks.text1":
+    "El ejemplo del mercado de valores muestra cómo implementar",
+  "orbi.examples.stocks.text2": "para peticiones utilizando el módulo",
+  "orbi.examples.stocks.text3": ".",
+  "orbi.examples.stocks.text4":
+    "Cambiar por un símbolo diferente emitirá una acción que actualiza el estado con el indicador de carga (reductor) y desencadena el efecto para recuperar la acción seleccionada.",
+  "orbi.examples.stocks.text5":
+    "Las acciones son rechazadas y cada solicitud posterior cancelará la anterior usando",
+  "orbi.examples.stocks.text6":
+    "Las acciones exitosas o erróneas se emiten al completar la solicitud. Se quitó la ruedecilla de carga y se muestra información de la acción o mensaje de error.",
+  "orbi.examples.stocks.error1": "Acción",
+  "orbi.examples.stocks.error2": "no encontrada",
+  "orbi.examples.theming.parent.title":
+    "Alcance del tema con componentes anidados",
+  "orbi.examples.theming.parent.description": "el padre funciona!",
+  "orbi.examples.theming.parent.text1":
+    "Los estilos de tema no se importan en la propiedad ",
+  "orbi.examples.theming.parent.text2": "del decorador",
+  "orbi.examples.theming.parent.text3":
+    "de los componentes, sino en el archivo",
+  "orbi.examples.theming.parent.text4": ". Debido a eso, los estilos del tema",
+  "orbi.examples.theming.parent.text5": "NO",
+  "orbi.examples.theming.parent.text6":
+    " tienen un alcance automático para el componente.",
+  "orbi.examples.theming.parent.text7": "Tenemos que utilizar selectores",
+  "orbi.examples.theming.parent.text8": "específicos",
+  "orbi.examples.theming.parent.text9":
+    "para evitar que los estilos se filtren en los componentes secundarios. Esto se puede lograr utilizando",
+  "orbi.examples.theming.parent.text10":
+    "en las reglas CSS para mejorar su especificidad. Por ejemplo, eche un vistazo al tema de este componente:",
+  "orbi.examples.theming.child.title": "h1 hijos",
+  "orbi.examples.theming.child.subtitle": "deben estar ser sin estilo",
+  "orbi.examples.theming.child.description": "el hijo funciona!",
+  "orbi.examples.auth.title": "Componente autenticado",
+  "orbi.examples.auth.description1":
+    "Este componente solo es accesible para usuarios autenticados",
+  "orbi.examples.auth.description2":
+    "Cerrar la sesión causará que el usuario sea redirigido a la pantalla de inicio si se visita la ruta accesible solo para usuarios autenticados"
+}

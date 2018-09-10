@@ -1,0 +1,34 @@
+<div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1 class="main-heading">{{ 'orbi.portfolio.screenTitle' | translate }}</h1>
+      </div>
+    </div>
+    <div class="row align-items-end">
+      <div *ngFor="let prod of portfolios " class="col-md-2 col-lg-4 cardBottomGap" [ngClass]="routeAnimationsElements">
+        <mat-card>
+              <img mat-card-image style="min-height:350px;"src="{{getImgPath(prod.img)}}">
+              <mat-card-title>{{prod.title}}</mat-card-title>
+        <mat-card-content>{{prod.description}}</mat-card-content>
+        </mat-card>
+      </div>
+      </div>
+    </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

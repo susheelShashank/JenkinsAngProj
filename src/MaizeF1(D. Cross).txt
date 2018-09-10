@@ -1,0 +1,18 @@
+{
+"provider Name":"Arunodaya",
+"ProductID":0,
+"Properties":[
+  {
+"Crop Name":"Maize F1(D. Cross)",
+"Crop ID":"Navee-98",
+"plant Height":"195 to 220 cms",
+"leaf Colour":"Green",
+"Shank Colour":"White",
+"Seed Colour":"Orange Red",
+"Maturity":"115 to 120 days",
+"Recommended Season":"Kharif",
+
+"Yield":"Higher"
+}]
+}
+

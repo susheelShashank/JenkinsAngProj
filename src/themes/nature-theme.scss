@@ -1,0 +1,9 @@
+$orbi-nature-primary: mat-palette($mat-brown, 700, 300, 900);
+$orbi-nature-accent: mat-palette($mat-deep-purple, 300);
+$orbi-nature-warn: mat-palette($mat-red, 600);
+
+$orbi-nature-theme: mat-light-theme(
+  $orbi-nature-primary,
+  $orbi-nature-accent,
+  $orbi-nature-warn
+);

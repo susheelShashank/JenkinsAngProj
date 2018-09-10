@@ -1,0 +1,9 @@
+$orbi-light-primary: mat-palette($mat-grey, 200, 500, 300);
+$orbi-light-accent: mat-palette($mat-brown, 200);
+$orbi-light-warn: mat-palette($mat-deep-orange, 200);
+
+$orbi-light-theme: mat-light-theme(
+  $orbi-light-primary,
+  $orbi-light-accent,
+  $orbi-light-warn
+);

@@ -1,0 +1,15 @@
+@import '~@angular/material/theming';
+
+@mixin orbi-child-component-theme($theme) {
+  $warn: map-get($theme, warn);
+
+  orbi-child {
+    > div {
+      border-color: mat-color($warn);
+
+      > h2 {
+        color: mat-color($warn);
+      }
+    }
+  }
+}

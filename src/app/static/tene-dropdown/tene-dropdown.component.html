@@ -1,0 +1,58 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h1 class="main-heading">{{ 'orbi.product.screenTitle' | translate }}</h1>
+    </div>
+  </div>
+  
+    
+    
+  
+      <div class="dropdown-content">
+        <a href="#">Link 1</a>
+
+  <div class="row align-items-end">
+    <div *ngFor="let prod of productList " class="col-md-2 col-lg-4 cardBottomGap" [ngClass]="routeAnimationsElements">
+      <mat-card style="background-color: #afc094;">
+            <mat-card-title>{{prod.prodTitle}}</mat-card-title>
+       
+            <img mat-card-image style="min-height:350px;"src="/assets/imgs/orbi/products/Arunodaya/{{prod.prodImg}}">
+         
+            <mat-card-content>
+          
+          <div>
+            <table>
+              <tr *ngFor="let prop of prod.properties | slice:0:7;">
+                <th>{{prop.propName}}</th>
+                <td>{{prop.propValue}}</td>
+              </tr>
+            </table>
+          </div> 
+        
+            </mat-card-content>
+            
+      </mat-card>
+   
+  </div>
+    </div>
+  
+    </div>
+    
+  </div>
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
