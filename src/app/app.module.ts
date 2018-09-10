@@ -12,7 +12,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {MatExpansionModule} from '@angular/material/expansion';
 import {HttpClientModule} from '@angular/common/http';
-import { NguCarouselModule } from '@ngu/carousel';
 
 
 
@@ -29,7 +28,6 @@ import { NguCarouselModule } from '@ngu/carousel';
     // features
     StaticModule,
     SettingsModule,
-    NguCarouselModule,
 
     // app
     AppRoutingModule,
