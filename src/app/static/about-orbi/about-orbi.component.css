@@ -1,0 +1,10 @@
+.orbiTextLink {
+    border-bottom: dashed;
+    border-bottom-color: #5ca4d0;
+}
+.orbiTextLink:hover {
+    border-bottom-color: #00ff08;
+}
+.orbiCursorHand {
+    cursor: pointer;
+}

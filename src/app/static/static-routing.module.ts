@@ -7,6 +7,7 @@ import { TeneDropdownComponent } from './tene-dropdown/tene-dropdown.component';
 import { OrbiPartnersComponent } from '@app/static/orbi-partners/orbi-partners.component';
 import { OrbiContactComponent } from '@app/static/orbi-contact/orbi-contact.component';
 import {OrbiTeamComponent} from '@app/static/orbi-team/orbi-team.component'
+import { OrbiPersonComponent } from '@app/static/orbi-person/orbi-person.component';
 
 const routes: Routes = [
   {
@@ -24,6 +25,9 @@ const routes: Routes = [
     component: FeaturesComponent,
     data: { title: 'orbi.menu.features' }
   },
+  { path: 'person/:pId', component: OrbiPersonComponent, 
+    data: { title: 'orbi.menu.about' }
+},
   /*{
     path:'orbi-partners',
     component: OrbiPartnersComponent,
