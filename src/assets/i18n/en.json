@@ -17,6 +17,14 @@
     {
       "screenTitle":"obri-Team"
     },
+    "SingleProduct":
+    {
+       "screenTitle":"Arunodaya Products"
+    },
+    "home":
+    {
+      "screenTitle":"Home"
+    },
     "title": "ORBI Seed International",
   "title.short": "ORBI Seed",
   "header.github": "Project Github Repository",

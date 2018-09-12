@@ -8,8 +8,11 @@ import { OrbiPartnersComponent } from '@app/static/orbi-partners/orbi-partners.c
 import { OrbiContactComponent } from '@app/static/orbi-contact/orbi-contact.component';
 import {OrbiTeamComponent} from '@app/static/orbi-team/orbi-team.component'
 import { OrbiPersonComponent } from '@app/static/orbi-person/orbi-person.component';
+import { OrbiPartnerDetailsComponent } from '@app/static/orbi-partners-details/orbi-partners-details.component';
+import { OrbiHomeComponent } from '@app/static/orbi-home/orbi-home.component';
 
 const routes: Routes = [
+
   {
     path: 'about',
     component: AboutComponent,
@@ -25,7 +28,8 @@ const routes: Routes = [
     component: FeaturesComponent,
     data: { title: 'orbi.menu.features' }
   },
-  { path: 'person/:pId', component: OrbiPersonComponent, 
+  { path: 'person/:pId', 
+  component: OrbiPersonComponent, 
     data: { title: 'orbi.menu.about' }
 },
   /*{
@@ -38,7 +42,12 @@ const routes: Routes = [
     path:'contact',
     component: OrbiContactComponent,
     data:{title:'orbi.contact.screenTitle'}
-  },
+  },{
+    path:'PartnersList/:partnerId',
+    component: OrbiPartnerDetailsComponent,
+    data:{title:'orbi.menu.teneDropdown'}
+  }
+
  /* {
     path:'orbi-Team',
     component: OrbiTeamComponent,

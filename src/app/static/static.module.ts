@@ -14,11 +14,11 @@ import { OrbiTeamComponent } from './orbi-team/orbi-team.component';
 import { OrbiCarouselComponent } from './orbi-carousel/orbi-carousel.component';
 import { AboutOrbiComponent } from './about-orbi/about-orbi.component';
 import { OrbiPersonComponent } from './orbi-person/orbi-person.component';
-
+import { OrbiPartnerDetailsComponent } from './orbi-partners-details/orbi-partners-details.component';
 
 @NgModule({
   imports: [SharedModule, StaticRoutingModule, NguCarouselModule],
   declarations: [AboutComponent, FeaturesComponent, TeneDropdownComponent, OrbiPartnersComponent,
-    OrbiPortfolioComponent, OrbiContactComponent, OrbiTeamComponent, OrbiCarouselComponent, AboutOrbiComponent, OrbiPersonComponent]
+    OrbiPortfolioComponent, OrbiContactComponent, OrbiTeamComponent, OrbiCarouselComponent, AboutOrbiComponent, OrbiPersonComponent, OrbiPartnerDetailsComponent]
 })
 export class StaticModule {}

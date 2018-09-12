@@ -12,6 +12,11 @@
          
               <img mat-card-image style="height:250px !important;" src="{{getImgPath(prod.logoImg)}}">
               <mat-card-content>{{prod.summary}}</mat-card-content>
+              <div class="card-footer cardFooterOrbi">
+                <a [routerLink]="['/PartnersList', prod.title]" class="OurProductsButton1"  >Partner Details >></a>
+                <br>
+         <a [routerLink]="['/Products']" class="OurProductsButton" >Our Products >></a>
+              </div>
               </mat-card>
               </div>
                      
