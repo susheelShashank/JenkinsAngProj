@@ -10,7 +10,9 @@ import {OrbiTeamComponent} from '@app/static/orbi-team/orbi-team.component'
 import { OrbiPersonComponent } from '@app/static/orbi-person/orbi-person.component';
 import { OrbiPartnerDetailsComponent } from '@app/static/orbi-partners-details/orbi-partners-details.component';
 import { OrbiHomeComponent } from '@app/static/orbi-home/orbi-home.component';
-
+import {OrbiBhalsarComponent } from '@app/static/orbi-bhalsar/orbi-bhalsar.component';
+import { OrbiCamsonComponent} from '@app/static/orbi-camson/orbi-camson.component';
+import {ProductDetailComponent } from '@app/static/product-detail/product-detail.component'
 const routes: Routes = [
 
   {
@@ -46,6 +48,20 @@ const routes: Routes = [
     path:'PartnersList/:partnerId',
     component: OrbiPartnerDetailsComponent,
     data:{title:'orbi.menu.teneDropdown'}
+  },
+  {
+    path:'bhalsar',
+    component: OrbiBhalsarComponent,
+    data:{title:'orbi.menu.bhalsar'}
+  },
+  {
+    path:'camson',
+    component:OrbiCamsonComponent,
+    data:{title:'orbi.menu.camson'}
+  },
+  {
+    path: 'details/:pId', component: ProductDetailComponent, 
+   
   }
 
  /* {
