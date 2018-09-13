@@ -1699,7 +1699,7 @@ export class TeneDropdownComponent implements OnInit {
       "propValue": "Very Attractive"
       }]}
       ,{
-      "providerComp":"CAMSIN",
+      "providerComp":"CAMSON",
       "prodImg": "camson20.png",
       "prodTitle": "ROHINI",
       "properties":[{

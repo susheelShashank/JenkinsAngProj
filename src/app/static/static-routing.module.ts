@@ -53,26 +53,13 @@ const routes: Routes = [
     component: OrbiPartnerDetailsComponent,
     data:{title:'orbi.menu.teneDropdown'}
   },
+  
   /*{
-    path:'bhalsar',
-    component: OrbiBhalsarComponent,
-    data:{title:'orbi.menu.bhalsar'}
-  },
-  {
-    path:'camson',
-    component:OrbiCamsonComponent,
-    data:{title:'orbi.menu.camson'}
-  },
-  {
     path: 'details/:pId', component: ProductDetailComponent, 
    
   }*/
 
- /* {
-    path:'orbi-Team',
-    component: OrbiTeamComponent,
-    data:{title:'orbi.team.screenTitle'}
-  }*/
+
 ];
 
 @NgModule({
