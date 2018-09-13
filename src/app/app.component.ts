@@ -45,6 +45,7 @@ export class AppComponent implements OnInit, OnDestroy {
   logo = require('../assets/logo.png');
   languages = ['en', 'de', 'sk', 'fr', 'es'];
   navigation = [
+    { link: 'Home', label: 'orbi.home.screenTitle' },
     { link: 'about', label: 'orbi.menu.about' },
     { link: 'Products', label: 'orbi.menu.teneDropdown' },
     /*{ link: 'features', label: 'orbi.menu.features' },

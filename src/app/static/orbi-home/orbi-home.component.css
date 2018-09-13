@@ -1,0 +1,34 @@
+.button-row1{
+    margin: -200px -50px; 
+    position:absolute;
+    top:75%; 
+    left:75%;
+}
+.button-row2{
+    margin: -200px -50px; 
+    position:absolute;
+    top:75%;
+    right:75%;
+}
+.Products
+{
+    border: none;
+    color: white;
+    padding: 13px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 26px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.ProductsCategories
+{
+    border: none;
+    color: white;
+    padding: 13px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 26px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}

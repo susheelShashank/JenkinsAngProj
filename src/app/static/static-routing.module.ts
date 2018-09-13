@@ -14,7 +14,11 @@ import {OrbiBhalsarComponent } from '@app/static/orbi-bhalsar/orbi-bhalsar.compo
 import { OrbiCamsonComponent} from '@app/static/orbi-camson/orbi-camson.component';
 import {ProductDetailComponent } from '@app/static/product-detail/product-detail.component'
 const routes: Routes = [
-
+  {
+    path: 'Home',
+    component: OrbiHomeComponent,
+    data: { title: 'orbi.home.screenTitle' }
+  },
   {
     path: 'about',
     component: AboutComponent,
