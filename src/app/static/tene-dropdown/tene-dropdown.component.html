@@ -3,15 +3,14 @@
 <div class="container">
   <div class="row">
     <div class="col-md-12">
-      <!--h1 class="main-heading">{{ 'orbi.menu.Arunodaya' | translate }}</h1-->
+      <h1 class="main-heading">{{ 'orbi.product.screenTitle' | translate }}</h1>
     </div>
   </div>
   <div class="row align-items-end">
-    <div *ngFor="let prod of productList " class="col-md-2 col-lg-4 cardBottomGap" [ngClass]="routeAnimationsElements">
+    <div *ngFor="let prod of productList; let i = index " class="col-md-2 col-lg-4 cardBottomGap" [ngClass]="routeAnimationsElements">
       <mat-card style="background-color: #afc094;">
             <mat-card-title>{{prod.prodTitle}}</mat-card-title>
-       
-            <img mat-card-image style="min-height:350px;"src="/assets/imgs/orbi/products/Arunodaya/{{prod.prodImg}}">
+            <img mat-card-image style="min-height:350px;"src="/assets/imgs/orbi/products/{{prod.providerComp}}/{{prod.prodImg}}">
          
             <mat-card-content>
           

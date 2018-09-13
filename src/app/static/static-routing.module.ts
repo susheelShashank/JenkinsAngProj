@@ -53,7 +53,7 @@ const routes: Routes = [
     component: OrbiPartnerDetailsComponent,
     data:{title:'orbi.menu.teneDropdown'}
   },
-  {
+  /*{
     path:'bhalsar',
     component: OrbiBhalsarComponent,
     data:{title:'orbi.menu.bhalsar'}
@@ -66,7 +66,7 @@ const routes: Routes = [
   {
     path: 'details/:pId', component: ProductDetailComponent, 
    
-  }
+  }*/
 
  /* {
     path:'orbi-Team',

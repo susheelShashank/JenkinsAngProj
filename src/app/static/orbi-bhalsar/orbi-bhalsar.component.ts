@@ -13,7 +13,6 @@ export class OrbiBhalsarComponent implements OnInit {
   ngOnInit() {
   }
   
-
   public getProducts() : any[] {
   return this.bhalsarList;
   }
@@ -27,7 +26,7 @@ export class OrbiBhalsarComponent implements OnInit {
   return o;
   })[0];
   }
-  
+
   public bhalsarList: any = [{
     "providerComp":"BHALSAR",
     "prodId": "BSI-VIRTUE",
