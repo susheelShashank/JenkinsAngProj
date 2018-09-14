@@ -7,7 +7,10 @@
   <div class="row align-items-end">
     <div *ngFor="let prod of productList; let i = index;" class="col-md-2 col-lg-4 cardBottomGap" [ngClass]="routeAnimationsElements">
       <mat-card style="background-color: #afc094;">
-            <mat-card-title>{{prod.prodTitle}}</mat-card-title>
+          
+          
+          <mat-card-title><mat-chip color="primary" selected>{{prod.providerComp}}</mat-chip>
+            {{prod.prodTitle}}</mat-card-title>
             <img mat-card-image style="min-height:350px;"src="/assets/imgs/orbi/products/{{prod.providerComp}}/{{prod.prodImg}}">
          
             <mat-card-content>
