@@ -59,7 +59,10 @@ const routes: Routes = [
    
   }*/
 
-
+  {
+    path:'Products',
+    redirectTo:'http://localhost:4200/Arunodaya.json'
+  }
 ];
 
 @NgModule({

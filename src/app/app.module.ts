@@ -12,6 +12,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {MatExpansionModule} from '@angular/material/expansion';
 import {HttpClientModule} from '@angular/common/http';
+import{HttpModule} from '@angular/http';
+import { ProductListService } from '@app/static/services/productList.service';
+
 
 
 
@@ -33,10 +36,10 @@ import {HttpClientModule} from '@angular/common/http';
     AppRoutingModule,
     MatExpansionModule,
     HttpClientModule,
-    
+    HttpModule,
   ],
   declarations: [AppComponent],
-  providers: [],
+  providers: [ProductListService],
   bootstrap: [AppComponent]
 })
 export class AppModule {}
