@@ -1,3 +1,4 @@
 .trimText {
     text-overflow: ellipsis;
+    counter-reset: section;
 }

@@ -1,17 +1,11 @@
 import { Component, OnInit } from "@angular/core";
-//import { MatExpansionPanelTitle } from "@angular/material";
 import { environment as env } from "@env/environment";
 import { ROUTE_ANIMATIONS_ELEMENTS } from "@app/core";
 //import { Observable } from '@rxjs/Observable';
 import { ProductListService } from "@app/static/services/productList.service";
-import { Router } from '@angular/router';
 import { ProductListData } from "@app/static/services/model/productList";
-
-//import Arunodaya=require("./Arunodaya.json");
-
-
-
-// import { concat } from "rxjs";
+import {Pipe,PipeTransform} from '@angular/core'
+import { pipe } from "rxjs";
 
 @Component({
   selector: "anms-tene-dropdown",
@@ -28,8 +22,7 @@ export class  TeneDropdownComponent implements OnInit {
   public productList: ProductListData[] = [];
   routeAnimationsElements = ROUTE_ANIMATIONS_ELEMENTS;
   versions = env.versions;
-  constructor(private productListService: ProductListService ) {
-    
+  constructor(private productListService: ProductListService ) { 
   }
   
   ngOnInit() {
