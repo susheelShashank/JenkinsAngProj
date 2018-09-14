@@ -7,30 +7,22 @@
   <div class="row align-items-end">
     <div *ngFor="let prod of productList; let i = index;" class="col-md-2 col-lg-4 cardBottomGap" [ngClass]="routeAnimationsElements">
       <mat-card style="background-color: #afc094;">
+          <mat-chip color="primary" selected>{{prod.providerComp}}</mat-chip>
             <mat-card-title>{{prod.prodTitle}}</mat-card-title>
-            <mat-card-title>{{prod.providerComp}}</mat-card-title>
             <img mat-card-image style="height: 350px;"src="/assets/imgs/orbi/products/{{prod.providerComp}}/{{prod.prodImg}}">
-         
-            <mat-card-content>
-          
-          <div >
-            <table>
-              <tr *ngFor="let prop of prod.properties | slice:0:7;" >
-               <th  class="trimText">{{prop.propName}}</th>
-               <td>{{prop.propValue}}</td>
-              </tr>
-            </table>
-          </div> 
-        
-            </mat-card-content>
-            
+           <mat-card-content>
+            <div >
+              <table>
+                <tr *ngFor="let prop of prod.properties | slice:0:7;" >
+                <th  class="trimText">{{prop.propName}}</th>
+                <td>{{prop.propValue}}</td>
+                </tr>
+              </table>
+            </div> 
+          </mat-card-content>
       </mat-card>
-   
-  
     </div>
-  
     </div>
-    
   </div>
 
 
