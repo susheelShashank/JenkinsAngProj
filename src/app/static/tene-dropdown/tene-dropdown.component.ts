@@ -4,9 +4,7 @@ import { ROUTE_ANIMATIONS_ELEMENTS } from "@app/core";
 //import { Observable } from '@rxjs/Observable';
 import { ProductListService } from "@app/static/services/productList.service";
 import { ProductListData } from "@app/static/services/model/productList";
-import {Pipe,PipeTransform} from '@angular/core'
-import { pipe } from "rxjs";
-
+import {productFilterPipe } from "@app/Pipes/product-filter.pipe";
 @Component({
   selector: "anms-tene-dropdown",
   templateUrl: "./tene-dropdown.component.html",
@@ -22,7 +20,8 @@ export class  TeneDropdownComponent implements OnInit {
   public productList: ProductListData[] = [];
   routeAnimationsElements = ROUTE_ANIMATIONS_ELEMENTS;
   versions = env.versions;
-  constructor(private productListService: ProductListService ) { 
+  productFilter=productFilterPipe;
+  constructor(private productListService: ProductListService) { 
   }
   
   ngOnInit() {
@@ -41,6 +40,7 @@ export class  TeneDropdownComponent implements OnInit {
         this.arunodayaDataJSON = data;
         this.productList = this.productList.concat(data);
       });
+      
 
     
   }    

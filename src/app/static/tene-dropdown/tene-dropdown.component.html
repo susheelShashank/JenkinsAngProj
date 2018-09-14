@@ -4,8 +4,14 @@
       <h1 class="main-heading">{{ 'orbi.product.screenTitle' | translate }}</h1>
     </div>
   </div>
+
+  <div ng-app="myApp" ng-controller="charactersCtrl">
+  <input [(ngModel)]="SearchProduct" placeholder="search product here">
+    {{SearchProduct}}
+</div>
   <div class="row align-items-end">
-    <div *ngFor="let prod of productList; let i = index;" class="col-md-2 col-lg-4 cardBottomGap" [ngClass]="routeAnimationsElements">
+     
+    <div *ngFor="let prod of productList;" class="col-md-2 col-lg-4 cardBottomGap" [ngClass]="routeAnimationsElements">
       <mat-card style="background-color: #afc094;">
           <mat-chip color="primary" selected>{{prod.providerComp}}</mat-chip>
             <mat-card-title>{{prod.prodTitle}}</mat-card-title>
@@ -22,7 +28,8 @@
           </mat-card-content>
       </mat-card>
     </div>
-    </div>
+  </div>
+    
   </div>
 
 
