@@ -2,8 +2,9 @@
     {
       "providerComp": "Arunodaya",
       "prodId": "APSA-91",
-      "prodImg": "Arunodaya1.png",
+      "prodImg": "APSA-91.png",
       "prodTitle": "Maize F1",
+      "prodCode":"Arunodaya1",
       "properties": [
         {
           "propName": "Plant Height",
@@ -38,8 +39,9 @@
     {
       "providerComp": "Arunodaya",
       "prodId": "Navee-98",
-      "prodImg": "Arunodaya2.png",
+      "prodImg": "Navee-98.png",
       "prodTitle": "Maize F1(D. Cross)",
+      "prodCode":"Arunodaya2",
       "properties": [
         {
           "propName": "Plant Height",
@@ -74,8 +76,9 @@
     {
       "providerComp": "Arunodaya",
       "prodId": "Byrava Super",
-      "prodImg": "Arunodaya3.png",
+      "prodImg": "Byrava Super.png",
       "prodTitle": "Maize F1(S. Cross)",
+      "prodCode":"Arunodaya3",
       "properties": [
         {
           "propName": "Plant Height",
@@ -114,8 +117,9 @@
     {
       "providerComp": "Arunodaya",
       "prodId": "AMH-6633",
-      "prodImg": "Arunodaya4.png",
+      "prodImg": "AMH-6633.png",
       "prodTitle": "Maize F1",
+      "prodCode":"Arunodaya4",
       "properties": [
         {
           "propName": "Plant Height",
@@ -150,8 +154,9 @@
     {
       "providerComp": "Arunodaya",
       "prodId": "Sri Byarava-2468",
-      "prodImg": "Arunodaya5.png",
+      "prodImg": "Sri Byarava-2468.png",
       "prodTitle": "Maize F1",
+      "prodCode":"Arunodaya5",
       "properties": [
         {
           "propName": "Plant Height",
@@ -186,8 +191,9 @@
     {
       "providerComp": "Arunodaya",
       "prodId": "JP-2007",
-      "prodImg": "Arunodaya6.png",
+      "prodImg": "JP-2007.png",
       "prodTitle": "Maize F1",
+      "prodCode":"Arunodaya6",
       "properties": [
         {
           "propName": "Plant Height",
@@ -222,8 +228,9 @@
     {
       "providerComp": "Arunodaya",
       "prodId": "AMH-8109",
-      "prodImg": "Arunodaya7.png",
+      "prodImg": "AMH-8109.png",
       "prodTitle": "Maize F1",
+      "prodCode":"Arunodaya7",
       "properties": [
         {
           "propName": "Plant Height",
@@ -258,8 +265,9 @@
     {
       "providerComp": "Arunodaya",
       "prodId": "ASH-100",
-      "prodImg": "Arunodaya8.png",
+      "prodImg": "ASH-100.png",
       "prodTitle": "Sunower F1",
+      "prodCode":"Arunodaya8",
       "properties": [
         {
           "propName": "Plant Height",
@@ -294,8 +302,9 @@
     {
       "providerComp": "Arunodaya",
       "prodId": "ASH-Monitor",
-      "prodImg": "Arunodaya9.png",
+      "prodImg": "ASH-Monitor.png",
       "prodTitle": "Sunower F1",
+      "prodCode":"Arunodaya9",
       "properties": [
         {
           "propName": "Plant Height",
@@ -330,8 +339,9 @@
     {
       "providerComp": "Arunodaya",
       "prodId": "Arunodaya Gold",
-      "prodImg": "Arunodaya10.png",
+      "prodImg": "Arunodaya Gold.png",
       "prodTitle": "Sunower F1",
+      "prodCode":"Arunodaya10",
       "properties": [
         {
           "propName": "Plant Height",
@@ -366,8 +376,9 @@
     {
       "providerComp": "Arunodaya",
       "prodId": "NSH - Apsara",
-      "prodImg": "Arunodaya11.png",
+      "prodImg": "NSH - Apsara.png",
       "prodTitle": "Sunower F1",
+      "prodCode":"Arunodaya11",
       "properties": [
         {
           "propName": "Plant Height",
@@ -402,8 +413,9 @@
     {
       "providerComp": "Arunodaya",
       "prodId": "Lakshmi-352",
-      "prodImg": "Arunodaya12.png",
+      "prodImg": "Lakshmi-352.png",
       "prodTitle": "Bajra F1",
+      "prodCode":"Arunodaya12",
       "properties": [
         {
           "propName": "Plant Height",
@@ -434,8 +446,9 @@
     {
       "providerComp": "Arunodaya",
       "prodId": "Lakshmi-357",
-      "prodImg": "Arunodaya13.png",
+      "prodImg": "Lakshmi-357.png",
       "prodTitle": "Bajra F1",
+      "prodCode":"Arunodaya13",
       "properties": [
         {
           "propName": "Plant Height",
@@ -466,8 +479,9 @@
     {
       "providerComp": "Arunodaya",
       "prodId": "APH-8181",
-      "prodImg": "Arunodaya14.png",
+      "prodImg": "APH-8181.png",
       "prodTitle": "Paddy F1 (short duration)",
+      "prodCode":"Arunodaya14",
       "properties": [
         {
           "propName": "Crop duration",
@@ -506,8 +520,9 @@
     {
       "providerComp": "Arunodaya",
       "prodId": "APH-9696",
-      "prodImg": "Arunodaya15.png",
+      "prodImg": "APH-9696.png",
       "prodTitle": "Paddy F1 (short duration)",
+      "prodCode":"Arunodaya15",
       "properties": [
         {
           "propName": "Crop duration",
@@ -546,8 +561,9 @@
     {
       "providerComp": "Arunodaya",
       "prodId": "Sonam 125",
-      "prodImg": "Arunodaya16.png",
+      "prodImg": "Sonam 125.png",
       "prodTitle": "Paddy Selection",
+      "prodCode":"Arunodaya16",
       "properties": [
         {
           "propName": "Crop duration",
@@ -586,8 +602,9 @@
     {
       "providerComp": "Arunodaya",
       "prodId": "Aditya",
-      "prodImg": "Arunodaya17.png",
+      "prodImg": "Aditya.png",
       "prodTitle": "Paddy Selection",
+      "prodCode":"Arunodaya17",
       "properties": [
         {
           "propName": "Crop duration",
@@ -613,9 +630,10 @@
     },
     {
       "providerComp": "Arunodaya",
-      "prodId": "Aditya",
-      "prodImg": "Arunodaya18.png",
+      "prodId": "Divya",
+      "prodImg": "Divya.png",
       "prodTitle": "Paddy Selection",
+      "prodCode":"Arunodaya18",
       "properties": [
         {
           "propName": "Crop duration",

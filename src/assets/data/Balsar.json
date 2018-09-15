@@ -2,8 +2,9 @@
     {
       "providerComp":"BHALSAR",
       "prodId": "BSI-VIRTUE",
-      "prodImg": "Bhalsar1.png",
+      "prodImg": "BSI-VIRTUE.png",
       "prodTitle": "BSI-VIRTUE",
+      "prodCode":"Bhalsar1",
       "properties":[{
       "propName": "Fruit skin",
       "propValue": "Green net"
@@ -36,8 +37,9 @@
      {
       "providerComp":"BHALSAR",
       "prodId": "BSI-PRINCE",
-      "prodImg": "Bhalsar2.png",
+      "prodImg": "BSI-PRINCE.png",
       "prodTitle": "BSI-PRINCE",
+      "prodCode":"Bhalsar2",
       "properties":[{
       "propName": "Fruit skin",
       "propValue": "yellow"
@@ -70,8 +72,9 @@
    {
       "providerComp":"BHALSAR",
       "prodId":"BSI Golden Ball",
-      "prodImg": "Bhalsar3.png",
+      "prodImg": "BSI Golden Ball.png",
       "prodTitle": "BSI Golden Ball",
+      "prodCode":"Bhalsar3",
       "properties":[{
       "propName": "Fruit skin",
       "propValue": "yellow"
@@ -105,8 +108,9 @@
    {
       "providerComp":"BHALSAR",
       "prodId":"BSI-449",
-      "prodImg": "Bhalsar4.png",
+      "prodImg": "BSI-449.png",
       "prodTitle":"BSI - 449",
+      "prodCode":"Bhalsar4",
       "properties":[{
       "propName": "Fruit skin",
       "propValue": "yellow"
@@ -139,8 +143,9 @@
    {
       "providerComp":"BHALSAR",
       "prodId":"BSI-AKANY",
-      "prodImg": "Bhalsar5.png",
+      "prodImg": "BSI-AKANY.png",
       "prodTitle": "BSI-AKANY",
+      "prodCode":"Bhalsar5",
       "properties":[{
       "propName": "Fruit skin",
       "propValue": "yellow"
@@ -173,8 +178,9 @@
    {
       "providerComp":"BHALSAR",
       "prodId":"BSI-LAURA",
-      "prodImg": "Bhalsar6.png",
+      "prodImg": "BSI-LAURA.png",
       "prodTitle": "BSI-LAURA",
+      "prodCode":"Bhalsar6",
       "properties":[{
       "propName": "Fruit skin",
       "propValue": "Yellow net"
@@ -207,8 +213,9 @@
    {
       "providerComp":"BHALSAR",
       "prodId":"BSI - 2002",
-      "prodImg": "Bhalsar7.png",
+      "prodImg": "BSI - 2002.png",
       "prodTitle": "BSI - 2002",
+      "prodCode":"Bhalsar7",
       "properties":[{
       "propName": "Fruit skin",
       "propValue": "Yellow net"
@@ -241,8 +248,9 @@
    {
       "providerComp":"BHALSAR",
       "prodId":"BSI-2005",
-      "prodImg": "Bhalsar8.png",
+      "prodImg": "BSI_2005.png",
       "prodTitle": "BSI-2005",
+      "prodCode":"Bhalsar8",
       "properties":[{
       "propName": "Fruit skin",
       "propValue": "Yellow"
@@ -275,8 +283,9 @@
    {
       "providerComp":"BHALSAR",
       "prodId":"BSI-2006",
-      "prodImg": "Bhalsar9.png",
+      "prodImg": "BSI-2006.png",
       "prodTitle": "BSI-2006",
+      "prodCode":"Bhalsar9",
       "properties":[{
       "propName": "Fruit skin",
       "propValue": "Yellow net"
@@ -309,8 +318,9 @@
    {
       "providerComp":"BHALSAR",
       "prodId":"BSSL -111",
-      "prodImg": "Bhalsar10.png",
+      "prodImg": "BSSL -111.png",
       "prodTitle": "BSSL -111(Seedless)",
+      "prodCode":"Bhalsar10",
       "properties":[{
       "propName": "Fruit shape",
       "propValue": "Ovule"
@@ -337,8 +347,9 @@
    {
       "providerComp":"BHALSAR",
       "prodId":"BSSL - 112",
-      "prodImg": "Bhalsar11.png",
+      "prodImg": "BSSL - 112.png",
       "prodTitle": "BSSL - 112",
+      "prodCode":"Bhalsar11",
       "properties":[{
       "propName": "Fruit shape",
       "propValue": "Ovule"
@@ -365,8 +376,9 @@
    {
       "providerComp":"BHALSAR",
       "prodId":"BSSY - 666",
-      "prodImg": "Bhalsar12.png",
+      "prodImg": "BSSY - 666.png",
       "prodTitle": "BSSY - 666",
+      "prodCode":"Bhalsar12",
       "properties":[{
       "propName": "Fruit shape",
       "propValue": "Oblong"
@@ -396,8 +408,9 @@
    {
       "providerComp":"BHALSAR",
       "prodId":"BSSY - 667",
-      "prodImg": "Bhalsar13.png",
+      "prodImg": "BSSY - 667.png",
       "prodTitle": "BSSY - 667",
+      "prodCode":"Bhalsar13",
       "properties":[{
       "propName": "Fruit shape",
       "propValue": "Ovule"
@@ -428,8 +441,9 @@
    {
       "providerComp":"BHALSAR",
       "prodId":"BSSR - 668",
-      "prodImg": "Bhalsar14.png",
+      "prodImg": "BSSR 668.png",
       "prodTitle": "BSSR - 668",
+      "prodCode":"Bhalsar14",
       "properties":[{
       "propName": "Fruit shape",
       "propValue": "Oblong"
@@ -459,8 +473,9 @@
    {
       "providerComp":"BHALSAR",
       "prodId":"BSPK -778",
-      "prodImg": "Bhalsar15.png",
+      "prodImg": "BSPK - 778.png",
       "prodTitle": "BSPK -778",
+      "prodCode":"Bhalsar15",
       "properties":[{
       "propName": "Fruit shape",
       "propValue": "Flat"
@@ -487,8 +502,9 @@
    {
       "providerComp":"BHALSAR",
       "prodId":"BSPK -779",
-      "prodImg": "Bhalsar16.png",
+      "prodImg": "BSPK - 779.png",
       "prodTitle": "BSPK -778",
+      "prodCode":"Bhalsar16",
       "properties":[{
       "propName": "Fruit shape",
       "propValue": "Flat"
