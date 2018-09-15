@@ -6,7 +6,7 @@ import { SettingsContainerComponent } from './settings';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'about',
+    redirectTo: 'Home',
     pathMatch: 'full'
   },
   {
