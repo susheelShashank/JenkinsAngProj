@@ -248,7 +248,7 @@
    {
       "providerComp":"BHALSAR",
       "prodId":"BSI-2005",
-      "prodImg": "BSI_2005.png",
+      "prodImg": "BSI-2005.png",
       "prodTitle": "BSI-2005",
       "prodCode":"Bhalsar8",
       "properties":[{
@@ -441,7 +441,7 @@
    {
       "providerComp":"BHALSAR",
       "prodId":"BSSR - 668",
-      "prodImg": "BSSR 668.png",
+      "prodImg": "BSSR - 668.png",
       "prodTitle": "BSSR - 668",
       "prodCode":"Bhalsar14",
       "properties":[{
@@ -473,7 +473,7 @@
    {
       "providerComp":"BHALSAR",
       "prodId":"BSPK -778",
-      "prodImg": "BSPK - 778.png",
+      "prodImg": "BSPK -778.png",
       "prodTitle": "BSPK -778",
       "prodCode":"Bhalsar15",
       "properties":[{
@@ -502,8 +502,8 @@
    {
       "providerComp":"BHALSAR",
       "prodId":"BSPK -779",
-      "prodImg": "BSPK - 779.png",
-      "prodTitle": "BSPK -778",
+      "prodImg": "BSPK -779.png",
+      "prodTitle": "BSPK -779",
       "prodCode":"Bhalsar16",
       "properties":[{
       "propName": "Fruit shape",
