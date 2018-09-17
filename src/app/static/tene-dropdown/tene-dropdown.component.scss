@@ -1,15 +1,57 @@
 .cardBottomGap {
-        margin-bottom: 25px;
-        
+  margin-bottom: 25px;
+  
 }
 
 .ng-MatCard
 {
-  
-  display: inline-block;
-  max-width: 50%;
+
+
+max-width: 50%;
 }
 .ng-Container
 {
-  max-width: 50%;
+max-width: 50%;
+
 }
+.trimText{
+max-width: 150px;
+font-size: 13px;
+line-height: normal;
+overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+}
+
+.trimText1{
+max-width: 150px;
+font-size: 13px;
+line-height: normal;
+overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+
+}
+
+table {
+font-family: arial, sans-serif;
+border-collapse: collapse;
+width: 100%;
+}
+
+td, th {
+border: 1px solid #dddddd;
+text-align: left;
+padding: 8px;
+}
+
+tr:nth-child(even) {
+background-color: #dddddd;
+}
+
+
+
+
+
+
+

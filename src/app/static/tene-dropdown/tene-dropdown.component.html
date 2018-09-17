@@ -4,32 +4,52 @@
       <h1 class="main-heading">{{ 'orbi.product.screenTitle' | translate }}</h1>
     </div>
   </div>
+  <!--input class="bx--search-input"
+  type="text" role="search" id="search__input-1"
+  placeholder="Search assets" aria-labelledby="search-input-label-2"
+  [(ngModel)]="queryString" (ngModelChange)="filterProducts()"-->
 
   <div ng-app="myApp" ng-controller="charactersCtrl">
-  <input [(ngModel)]="SearchProduct" placeholder="search product here">
-    {{SearchProduct}}
-</div>
+      
+    
+
+      <input type="text"  name="SearchProduct"  [(ngModel)]="SearchProduct" (ngModelChange)="ProductFilter()" placeholder="search product here" >
+    <br>
+    <br>
+
+
   <div class="row align-items-end">
      
-    <div *ngFor="let prod of productList;" class="col-md-2 col-lg-4 cardBottomGap" [ngClass]="routeAnimationsElements">
+     
+        
+      <div *ngFor="let prod of productList" class="col-md-2 col-lg-4 cardBottomGap" [ngClass]="routeAnimationsElements" >
+          
       <mat-card style="background-color: #afc094;">
+         
           <mat-chip color="primary" selected>{{prod.providerComp}}</mat-chip>
             <mat-card-title>{{prod.prodTitle}}</mat-card-title>
-            <img mat-card-image style="height: 350px;"src="/assets/imgs/orbi/products/{{prod.providerComp}}/{{prod.prodImg}}">
+            <img mat-card-image style="height: 250px;"src="/assets/imgs/orbi/products/{{prod.providerComp}}/{{prod.prodImg}}">
+
            <mat-card-content>
             <div >
               <table>
-                <tr *ngFor="let prop of prod.properties | slice:0:7;" >
-                <th  class="trimText">{{prop.propName}}</th>               
-                <td>{{prop.propValue}}</td>
+                <tr *ngFor="let prop of prod.properties">
+
+                <th class="trimText" title="{{prop.propName}}" >{{prop.propName}}</th> 
+                
+                              
+                <td class="trimText1" title="{{prop.propValue}}">{{prop.propValue}}</td>
+             
+
                 </tr>
               </table>
+
             </div> 
+            
           </mat-card-content>
       </mat-card>
     </div>
   </div>
-    
   </div>
 
 

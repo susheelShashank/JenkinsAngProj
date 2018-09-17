@@ -4,6 +4,7 @@
       "prodImg": "SABARI.png",
       "prodTitle": "SABARI",
       "prodCode":"Camson1",
+      "prodType":"Muskmelon",
       "properties":[{
       "propName": "Plant vigor",
       "propValue": "High"
@@ -42,6 +43,7 @@
           "prodImg": "CHAMBAL.png",
           "prodTitle": "CHAMBAL",
           "prodCode":"Camson2",
+          "prodType":"Muskmelon",
           "properties":[{
           "propName": "Type",
           "propValue": "Cantaloupe"
@@ -73,10 +75,11 @@
           },
           {
             "providerComp":"CAMSON",
-            "prodId":"Maize F1(S. Cross)",
-            "prodImg": "Maize F1(S. Cross).png",
-            "prodTitle": "Maize F1(S. Cross)",
+            "prodId":"MEGHANA",
+            "prodImg": "MEGHANA.png",
+            "prodTitle": "MEGHANA",
             "prodCode":"Camson3",
+            "prodType":"Cucumber",
             "properties":[{
               "propName": "Plant vigor",
               "propValue": "High"
@@ -103,6 +106,7 @@
               "prodImg": "LOHIT.png",
               "prodTitle": "LOHIT",
               "prodCode":"Camson4",
+              "prodType":"Bitter Gourd",
               "properties":[{
               "propName": "Days to 1st Picking",
               "propValue": "50-55 Day"
@@ -129,6 +133,7 @@
                 "prodImg": "TUNGA.png",
                 "prodTitle": "TUNGA",
                 "prodCode":"Camson5",
+                "prodType":"Bitter Gourd",
                 "properties":[{
                 "propName": "Days to 1st Picking",
                 "propValue": "50-55 Day"
@@ -155,6 +160,7 @@
      "prodImg": "Brahamputra.png",
       "prodTitle": "Brahamputra",
       "prodCode":"Camson6",
+      "prodType":"Bottle Gourd",
       "properties":[{
       "propName": "Plant vigor",
       "propValue": "Vigorous"
@@ -186,6 +192,7 @@
                 "prodImg": "BARASTA.png",
                 "prodTitle": "BARASTA",
                 "prodCode":"Camson7",
+                "prodType":"Sponge Gourd",
                 "properties":[{
                 "propName": "Days to 1st Picking",
                 "propValue": "40-45 Day"
@@ -205,6 +212,7 @@
                 "prodImg": "DHUBRI.png",
                 "prodTitle": "DHUBRI",
                 "prodCode":"Camson8",
+                "prodType":"Sponge Gourd",
                 "properties":[{
                 "propName": "Days to 1st Picking",
                 "propValue": "46-48 days"
@@ -224,6 +232,7 @@
                 "prodImg": "KAUVERI.png",
                 "prodTitle": "KAUVERI",
                 "prodCode":"Camson9",
+                "prodType":"Ridge Gourd",
                 "properties":[{
                 "propName": "Days to 1st Picking",
                 "propValue": "40-45 Days"
@@ -248,6 +257,7 @@
       "prodImg": "KUNO.png",
       "prodTitle": "KUNO",
       "prodCode":"Camson10",
+      "prodType":"Pumpkin",
       "properties":[{
       "propName": "Plant vigor",
       "propValue": "Vigorous"
@@ -275,6 +285,7 @@
       "prodImg": "DAMODAR.png",
       "prodTitle": "DAMODAR",
       "prodCode":"Camson11",
+      "prodType":"Round Gourd",
       "properties":[{
       "propName": "Plant habit",
       "propValue": "Vigorous"
@@ -302,6 +313,7 @@
       "prodImg": "F1 DHARMA.png",
       "prodTitle": "F1 DHARMA",
       "prodCode":"Camson12",
+      "prodType":"Radish ",
       "properties":[{
       "propName": "Root Length",
       "propValue": "Long (28-32 cm)"
@@ -330,6 +342,7 @@
       "prodImg": "F1 - GOINI.png",
       "prodTitle": "F1 - GOINI",
       "prodCode":"Camson13",
+      "prodType":"Radish",
       "properties":[{
       "propName": "Root Length",
       "propValue": "Long (35-38 cm)"
@@ -358,6 +371,7 @@
       "prodImg": "KOSI.png",
       "prodTitle": "KOSI",
       "prodCode":"Camson14",
+      "prodType":"Cauliflower",
       "properties":[{
       "propName": "Days to maturity",
       "propValue": "65-70 days"
@@ -389,6 +403,7 @@
       "prodImg": "KAPILA.png",
       "prodTitle": "KAPILA",
       "prodCode":"Camson15",
+      "prodType":"Cauliflower",
       "properties":[{
       "propName": "Days to maturity",
       "propValue": "70-75 days"
@@ -420,6 +435,7 @@
       "prodImg": "NEELUM.png",
       "prodTitle": "NEELUM",
       "prodCode":"Camson16",
+      "prodType":"Cabbage",
       "properties":[{
       "propName": "Days to maturity",
       "propValue": "50-55 days"
@@ -451,6 +467,7 @@
       "prodImg": "JHELUM.png",
       "prodTitle": "JHELUM",
       "prodCode":"Camson17",
+      "prodType":"Cabbage",
       "properties":[{
       "propName": "Days to maturity",
       "propValue": "65-70 days"
@@ -482,6 +499,7 @@
       "prodImg": "ULHAS.png",
       "prodTitle": "ULHAS",
       "prodCode":"Camson18",
+      "prodType":"Beetroot",
       "properties":[{
       "propName": "Days to maturity",
       "propValue": "65-70 days"
@@ -513,6 +531,7 @@
       "prodImg": "MAHI.png",
       "prodTitle": "MAHI",
       "prodCode":"Camson19",
+      "prodType":"Peas",
       "properties":[{
       "propName": "First Picking",
       "propValue": "75–80 days"
@@ -547,6 +566,7 @@
       "prodImg": "ROHINI.png",
       "prodTitle": "ROHINI",
       "prodCode":"Camson20",
+      "prodType":"Unknown1",
       "properties":[{
       "propName": "Crop Duration",
       "propValue": "100 to 120 days"
@@ -572,6 +592,7 @@
       "prodImg": "JALANGI.png",
       "prodTitle": "JALANGI",
       "prodCode":"Camson21",
+      "prodType":"Unknown2",
       "properties":[{
       "propName": "Plant habit",
       "propValue": "Vigorous and erect plant"
@@ -594,6 +615,7 @@
       "prodImg": "MANSAROVAR.png",
       "prodTitle": "MANSAROVAR",
       "prodCode":"Camson22",
+      "prodType":"Maize",
       "properties":[{
       "propName": "Cob size",
       "propValue": "Medium"
@@ -622,6 +644,7 @@
       "prodImg": "MERICOM.png",
       "prodTitle": "MERICOM",
       "prodCode":"Camson23",
+      "prodType":"Marigold Flower",
       "properties":[{
       "propName": "Plant Height",
       "propValue": "4 - 4.5 ft"
@@ -641,6 +664,7 @@
       "prodImg": "MERISON.png",
       "prodTitle": "MERISON",
       "prodCode":"Camson24",
+      "prodType":"Marigold Flower",
       "properties":[{
       "propName": "Plant Height",
       "propValue": "4 - 4.5 ft"
@@ -660,6 +684,7 @@
       "prodImg": "SATLUJ - GOLD.png",
       "prodTitle": "SATLUJ - GOLD",
       "prodCode":"Camson25",
+      "prodType":"Lady Finger",
       "properties":[{
       "propName": "Plant type",
       "propValue": "Tall"
@@ -685,6 +710,7 @@
       "prodImg": "NANDI +.png",
       "prodTitle": "NANDI +",
       "prodCode":"Camson26",
+      "prodType":"Lady Finger",
       "properties":[{
       "propName": "Plant type",
       "propValue": "Tall"
@@ -713,7 +739,7 @@
       "prodImg": "BEAS.png",
       "prodTitle": "BEAS",
       "prodCode":"Camson27",
-
+      "prodType":"Tomato",
       "properties":[{
       "propName": "Plant Habit",
       "propValue": " Semi Determinate"
@@ -739,7 +765,7 @@
       "prodImg": "SONGANGA.png",
       "prodTitle": "SONGANGA",
       "prodCode":"Camson28",
-
+      "prodType":"Tomato",
       "properties":[{
       "propName": "Plant Habit",
       "propValue": " Semi Determinate"
@@ -764,6 +790,7 @@
       "prodImg": "SWARNAGANGA.png",
       "prodTitle": "SWARNAGANGA",
       "prodCode":"Camson29",
+      "prodType":"Tomato",
       "properties":[{
       "propName": "Plant Habit",
       "propValue": " Semi Determinate"
@@ -789,7 +816,7 @@
       "prodImg": "AKASH GANGA.png",
       "prodTitle": "AKASH GANGA",
       "prodCode":"Camson30",
-
+      "prodType":"Tomato",
       "properties":[{
       "propName": "Plant growth Habit",
       "propValue": " Determinate"
@@ -815,6 +842,7 @@
       "prodImg": "BANGANGA.png",
       "prodTitle": "BANGANGA",
       "prodCode":"Camson31",
+      "prodType":"Tomato",
       "properties":[{
       "propName": "Plant Habit",
       "propValue": " Semi Determinate"
@@ -840,6 +868,7 @@
       "prodImg": "NALGANGA.png",
       "prodTitle": "NALGANGA",
       "prodCode":"Camson32",
+      "prodType":"Tomato",
       "properties":[{
       "propName": "Growth habit",
       "propValue": " Semi Determinate"
@@ -868,6 +897,7 @@
       "prodImg": "PATALGANGA.png",
       "prodTitle": "PATALGANGA",
       "prodCode":"Camson33",
+      "prodType":"Tomato",
       "properties":[{
       "propName": "Growth habit",
       "propValue": " Semi Determinate"
@@ -896,6 +926,7 @@
       "prodImg": "RAMGANGA.png",
       "prodTitle": "RAMGANGA",
       "prodCode":"Camson34",
+      "prodType":"Tomato",
       "properties":[{
       "propName": "Plant Habit",
       "propValue": " Indeterminate"
@@ -924,6 +955,7 @@
       "prodImg": "BETWA.png",
       "prodTitle": "BETWA",
       "prodCode":"Camson35",
+      "prodType":"Tomato",
       "properties":[{
       "propName": "Growth habit",
       "propValue": "Indeterminate/ Creeper type"
@@ -955,6 +987,7 @@
       "prodImg": "KEN.png",
       "prodTitle": "KEN",
       "prodCode":"Camson36",
+      "prodType":"Tomato",
       "properties":[{
       "propName": "Growth habit",
       "propValue": "Indeterminate/ Creeper type"
@@ -986,6 +1019,7 @@
       "prodImg": "PENNAR.png",
       "prodTitle": "PENNAR",
       "prodCode":"Camson37",
+      "prodType":"Chilli",
       "properties":[{
       "propName": "Plant Type",
       "propValue": "Erect & Bushy 1ST Picking"
@@ -1013,6 +1047,7 @@
       "prodImg": "SHIPRA.png",
       "prodTitle": "SHIPRA",
       "prodCode":"Camson38",
+      "prodType":"Chilli",
       "properties":[{
       "propName": "Plant Type",
       "propValue": "Erect / Upright 1ST Pcking"
@@ -1041,6 +1076,7 @@
       "prodImg": "BHAGIRATHI.png",
       "prodTitle": "BHAGIRATHI",
       "prodCode":"Camson39",
+      "prodType":"Chilli",
       "properties":[{
       "propName": "Plant Type",
       "propValue": "Erect & Bushy"
@@ -1066,6 +1102,7 @@
       "prodImg": "SAVITRI.png",
       "prodTitle": "SAVITRI",
       "prodCode":"Camson40",
+      "prodType":"Chilli",
       "properties":[{
       "propName": "Plant Type",
       "propValue": "Erect & Bushy"
@@ -1091,6 +1128,7 @@
       "prodImg": "PURNA.png",
       "prodTitle": "PURNA",
       "prodCode":"Camson41",
+      "prodType":"Chilli",
       "properties":[{
       "propName": "Plant Type",
       "propValue": "Erect & Bushy"
@@ -1116,6 +1154,7 @@
       "prodImg": "MANER.png",
       "prodTitle": "MANER",
       "prodCode":"Camson42",
+      "prodType":"Chilli",
       "properties":[{
       "propName": "Plant Type",
       "propValue": "Bushy"
@@ -1141,6 +1180,7 @@
       "prodImg": "TAPTI.png",
       "prodTitle": "TAPTI",
       "prodCode":"Camson43",
+      "prodType":"Chilli",
       "properties":[{
       "propName": "Plant Type",
       "propValue": "Erect and open type"
@@ -1166,6 +1206,7 @@
       "prodImg": "GOMTI.png",
       "prodTitle": "GOMTI",
       "prodCode":"Camson44",
+      "prodType":"Chilli",
       "properties":[{
       "propName": "Plant Type",
       "propValue": "Erect and open type"
@@ -1191,6 +1232,7 @@
       "prodImg": "NARMADA.png",
       "prodTitle": "NARMADA",
       "prodCode":"Camson45",
+      "prodType":"Chilli",
       "properties":[{
       "propName": "Plant Type",
       "propValue": "Erect and open type"
@@ -1216,6 +1258,7 @@
       "prodImg": "TARINI.png",
       "prodTitle": "TARINI",
       "prodCode":"Camson46",
+      "prodType":"Chilli",
       "properties":[{
       "propName": "Plant Type",
       "propValue": "Semi Erect & open"
@@ -1240,6 +1283,7 @@
       "prodImg": "UMA.png",
       "prodTitle": "UMA",
       "prodCode":"Camson47",
+      "prodType":"Chilli",
       "properties":[{
       "propName": "Plant Type",
       "propValue": "Semi Erect & open"
@@ -1264,6 +1308,7 @@
       "prodImg": "MUSI.png",
       "prodTitle": "MUSI",
       "prodCode":"Camson48",
+      "prodType":"Chilli",
       "properties":[{
       "propName": "Plant Type",
       "propValue": "Umbrella type open"
@@ -1292,6 +1337,7 @@
       "prodImg": "NAGI.png",
       "prodTitle": "NAGI",
       "prodCode":"Camson49",
+      "prodType":"Chilli",
       "properties":[{
       "propName": "Plant Type",
       "propValue": "Erect and upright"
@@ -1317,6 +1363,7 @@
       "prodImg": "PAMBA.png",
       "prodTitle": "PAMBA",
       "prodCode":"Camson50",
+      "prodType":"Capsicum",
       "properties":[{
       "propName": "Plant Vigour",
       "propValue": "Vigorous"
@@ -1341,6 +1388,7 @@
       "prodImg": "PALAR.png",
       "prodTitle": "PALAR",
       "prodCode":"Camson51",
+      "prodType":"Capsicum",
       "properties":[{
       "propName": "Plant Vigour",
       "propValue": "Vigorous"
@@ -1365,6 +1413,7 @@
       "prodImg": "KRISHNA.png",
       "prodTitle": "KRISHNA",
       "prodCode":"Camson52",
+      "prodType":"Round Brinjal",
       "properties":[{
       "propName": "Plant Type",
       "propValue": "Erect"
@@ -1386,6 +1435,7 @@
       "prodImg": "GODAVARI.png",
       "prodTitle": "GODAVARI",
       "prodCode":"Camson53",
+      "prodType":"Round Brinjal",
       "properties":[{
       "propName": "Plant Type",
       "propValue": "Semi erect bushy"
@@ -1407,6 +1457,7 @@
       "prodImg": "SATI.png",
       "prodTitle": "SATI",
       "prodCode":"Camson54",
+      "prodType":"Round Brinjal",
       "properties":[{
       "propName": "Plant Type",
       "propValue": "Erect bushy"
@@ -1428,6 +1479,7 @@
       "prodImg": "SONE.png",
       "prodTitle": "SONE",
       "prodCode":"Camson55",
+      "prodType":"Round Brinjal",
       "properties":[{
       "propName": "Plant Type",
       "propValue": "Semi- Erect Bushy"
@@ -1449,6 +1501,7 @@
       "prodImg": "KUMARDHARA.png",
       "prodTitle": "KUMARDHARA",
       "prodCode":"Camson56",
+      "prodType":"Round Brinjal",
       "properties":[{
       "propName": "Plant Type",
       "propValue": "Semi- Erect Bushy"
@@ -1470,6 +1523,7 @@
       "prodImg": "BHADRAVATI.png",
       "prodTitle": "BHADRAVATI",
       "prodCode":"Camson57",
+      "prodType":"Round Brinjal",
       "properties":[{
       "propName": "Plant Type",
       "propValue": "Semi- Erect Bushy"
@@ -1491,6 +1545,7 @@
       "prodImg": "YAMUNOTRY.png",
       "prodTitle": "YAMUNOTRY",
       "prodCode":"Camson58",
+      "prodType":"Round Brinjal",
       "properties":[{
       "propName": "Habit",
       "propValue": "Semi- Erect Bushy"
@@ -1512,6 +1567,7 @@
       "prodImg": "DHANSRI.png",
       "prodTitle": "DHANSRI",
       "prodCode":"Camson59",
+      "prodType":"Round Brinjal",
       "properties":[{
       "propName": "Plant Type",
       "propValue": "Erect & Bushy"
@@ -1536,6 +1592,7 @@
       "prodImg": "TUNGABHADRA.png",
       "prodTitle": "TUNGABHADRA",
       "prodCode":"Camson60",
+      "prodType":"Round Brinjal",
       "properties":[{
       "propName": "Habit",
       "propValue": "Semi erect & Bushy"
@@ -1560,6 +1617,7 @@
       "prodImg": "MAHANADI.png",
       "prodTitle": "MAHANADI",
       "prodCode":"Camson61",
+      "prodType":"Round Brinjal",
       "properties":[{
       "propName": "Plant Type",
       "propValue": "Semi erect & Bushy"
@@ -1581,6 +1639,7 @@
       "prodImg": "MANDAKINI.png",
       "prodTitle": "MANDAKINI",
       "prodCode":"Camson62",
+      "prodType":"Long Brinjal",
       "properties":[{
       "propName": "Plant Type",
       "propValue": "Erect"
@@ -1602,6 +1661,7 @@
       "prodImg": "MANJIRA.png",
       "prodTitle": "MANJIRA",
       "prodCode":"Camson63",
+      "prodType":"Long Brinjal",
       "properties":[{
       "propName": "Habit",
       "propValue": "Semi- erect bushy"
@@ -1623,6 +1683,7 @@
       "prodImg": "BARAK.png",
       "prodTitle": "BARAK",
       "prodCode":"Camson64",
+      "prodType":"Long Brinjal",
       "properties":[{
       "propName": "Habit",
       "propValue": "Semi- erect & upright"
@@ -1644,6 +1705,7 @@
       "prodImg": "PERIYAR.png",
       "prodTitle": "PERIYAR",
       "prodCode":"Camson65",
+      "prodType":"Long Brinjal",
       "properties":[{
       "propName": "Plant Type",
       "propValue": "Erect bushy"
@@ -1665,6 +1727,7 @@
       "prodImg": "SWEATA.png",
       "prodTitle": "SWEATA",
       "prodCode":"Camson66",
+      "prodType":"Long Brinjal",
       "properties":[{
       "propName": "Plant Type",
       "propValue": "Semi erect bushy"
@@ -1686,6 +1749,7 @@
       "prodImg": "CHANDRAPRABHAVATI.png",
       "prodTitle": "CHANDRAPRABHAVATI",
       "prodCode":"Camson67",
+      "prodType":"Watermelon",
       "properties":[{
       "propName": "Plant Vigour",
       "propValue": "High"
@@ -1713,6 +1777,7 @@
       "prodImg": "HEMAVATI.png",
       "prodTitle": "HEMAVATI",
       "prodCode":"Camson68",
+      "prodType":"Watermelon",
       "properties":[{
       "propName": "Plant Vigour",
       "propValue": "High"
@@ -1740,6 +1805,7 @@
       "prodImg": "AMARAVATI.png",
       "prodTitle": "AMARAVATI",
       "prodCode":"Camson69",
+      "prodType":"Watermelon",
       "properties":[{
       "propName": "Plant Vigour",
       "propValue": "High"
@@ -1767,6 +1833,7 @@
       "prodImg": "NETRAVATI.png",
       "prodTitle": "NETRAVATI",
       "prodCode":"Camson70",
+      "prodType":"Watermelon",
       "properties":[{
       "propName": "Plant Vigour",
       "propValue": "High"
@@ -1794,6 +1861,7 @@
       "prodImg": "SONMATI.png",
       "prodTitle": "SONMATI",
       "prodCode":"Camson71",
+      "prodType":"Watermelon",
       "properties":[{
       "propName": "Plant Vigour",
       "propValue": "High"
@@ -1830,6 +1898,7 @@
       "prodImg": "GANDHAK.png",
       "prodTitle": "GANDHAK",
       "prodCode":"Camson72",
+      "prodType":"MuskMelon",
       "properties":[{
       "propName": "Plant Vigour",
       "propValue": "High"
@@ -1866,6 +1935,7 @@
       "prodImg": "NIRA.png",
       "prodTitle": "NIRA",
       "prodCode":"Camson73",
+      "prodType":"MuskMelon",
       "properties":[{
       "propName": "Plant Vigour",
       "propValue": "High"

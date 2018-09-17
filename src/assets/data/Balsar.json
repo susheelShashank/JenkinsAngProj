@@ -5,6 +5,7 @@
       "prodImg": "BSI-VIRTUE.png",
       "prodTitle": "BSI-VIRTUE",
       "prodCode":"Bhalsar1",
+      "prodType":"MuskMelon",
       "properties":[{
       "propName": "Fruit skin",
       "propValue": "Green net"
@@ -40,6 +41,7 @@
       "prodImg": "BSI-PRINCE.png",
       "prodTitle": "BSI-PRINCE",
       "prodCode":"Bhalsar2",
+      "prodType":"MuskMelon",
       "properties":[{
       "propName": "Fruit skin",
       "propValue": "yellow"
@@ -75,6 +77,7 @@
       "prodImg": "BSI Golden Ball.png",
       "prodTitle": "BSI Golden Ball",
       "prodCode":"Bhalsar3",
+      "prodType":"MuskMelon",
       "properties":[{
       "propName": "Fruit skin",
       "propValue": "yellow"
@@ -111,6 +114,7 @@
       "prodImg": "BSI-449.png",
       "prodTitle":"BSI - 449",
       "prodCode":"Bhalsar4",
+      "prodType":"MuskMelon",
       "properties":[{
       "propName": "Fruit skin",
       "propValue": "yellow"
@@ -146,6 +150,7 @@
       "prodImg": "BSI-AKANY.png",
       "prodTitle": "BSI-AKANY",
       "prodCode":"Bhalsar5",
+      "prodType":"MuskMelon",
       "properties":[{
       "propName": "Fruit skin",
       "propValue": "yellow"
@@ -181,6 +186,7 @@
       "prodImg": "BSI-LAURA.png",
       "prodTitle": "BSI-LAURA",
       "prodCode":"Bhalsar6",
+      "prodType":"MuskMelon",
       "properties":[{
       "propName": "Fruit skin",
       "propValue": "Yellow net"
@@ -216,6 +222,7 @@
       "prodImg": "BSI - 2002.png",
       "prodTitle": "BSI - 2002",
       "prodCode":"Bhalsar7",
+      "prodType":"MuskMelon",
       "properties":[{
       "propName": "Fruit skin",
       "propValue": "Yellow net"
@@ -248,9 +255,10 @@
    {
       "providerComp":"BHALSAR",
       "prodId":"BSI-2005",
-      "prodImg": "BSI_2005.png",
+      "prodImg": "BSI-2005.png",
       "prodTitle": "BSI-2005",
       "prodCode":"Bhalsar8",
+      "prodType":"MuskMelon",
       "properties":[{
       "propName": "Fruit skin",
       "propValue": "Yellow"
@@ -286,6 +294,7 @@
       "prodImg": "BSI-2006.png",
       "prodTitle": "BSI-2006",
       "prodCode":"Bhalsar9",
+      "prodType":"MuskMelon",
       "properties":[{
       "propName": "Fruit skin",
       "propValue": "Yellow net"
@@ -321,6 +330,7 @@
       "prodImg": "BSSL -111.png",
       "prodTitle": "BSSL -111(Seedless)",
       "prodCode":"Bhalsar10",
+      "prodType":"Watermelon",
       "properties":[{
       "propName": "Fruit shape",
       "propValue": "Ovule"
@@ -350,6 +360,7 @@
       "prodImg": "BSSL - 112.png",
       "prodTitle": "BSSL - 112",
       "prodCode":"Bhalsar11",
+      "prodType":"Watermelon",
       "properties":[{
       "propName": "Fruit shape",
       "propValue": "Ovule"
@@ -379,6 +390,7 @@
       "prodImg": "BSSY - 666.png",
       "prodTitle": "BSSY - 666",
       "prodCode":"Bhalsar12",
+      "prodType":"Watermelon",
       "properties":[{
       "propName": "Fruit shape",
       "propValue": "Oblong"
@@ -411,6 +423,7 @@
       "prodImg": "BSSY - 667.png",
       "prodTitle": "BSSY - 667",
       "prodCode":"Bhalsar13",
+      "prodType":"Watermelon",
       "properties":[{
       "propName": "Fruit shape",
       "propValue": "Ovule"
@@ -441,9 +454,10 @@
    {
       "providerComp":"BHALSAR",
       "prodId":"BSSR - 668",
-      "prodImg": "BSSR 668.png",
+      "prodImg": "BSSR - 668.png",
       "prodTitle": "BSSR - 668",
       "prodCode":"Bhalsar14",
+      "prodType":"Watermelon",
       "properties":[{
       "propName": "Fruit shape",
       "propValue": "Oblong"
@@ -473,9 +487,10 @@
    {
       "providerComp":"BHALSAR",
       "prodId":"BSPK -778",
-      "prodImg": "BSPK - 778.png",
+      "prodImg": "BSPK -778.png",
       "prodTitle": "BSPK -778",
       "prodCode":"Bhalsar15",
+      "prodType":"Pumpkin",
       "properties":[{
       "propName": "Fruit shape",
       "propValue": "Flat"
@@ -502,9 +517,10 @@
    {
       "providerComp":"BHALSAR",
       "prodId":"BSPK -779",
-      "prodImg": "BSPK - 779.png",
-      "prodTitle": "BSPK -778",
+      "prodImg": "BSPK -779.png",
+      "prodTitle": "BSPK -779",
       "prodCode":"Bhalsar16",
+      "prodType":"Pumpkin",
       "properties":[{
       "propName": "Fruit shape",
       "propValue": "Flat"
