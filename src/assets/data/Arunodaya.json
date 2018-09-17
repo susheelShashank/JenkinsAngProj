@@ -5,6 +5,7 @@
       "prodImg": "APSA-91.png",
       "prodTitle": "Maize F1",
       "prodCode":"Arunodaya1",
+      "prodType":"Maize",
       "properties": [
         {
           "propName": "Plant Height",
@@ -42,6 +43,7 @@
       "prodImg": "Navee-98.png",
       "prodTitle": "Maize F1(D. Cross)",
       "prodCode":"Arunodaya2",
+      "prodType":"Maize",
       "properties": [
         {
           "propName": "Plant Height",
@@ -79,6 +81,7 @@
       "prodImg": "Byrava Super.png",
       "prodTitle": "Maize F1(S. Cross)",
       "prodCode":"Arunodaya3",
+      "prodType":"Maize",
       "properties": [
         {
           "propName": "Plant Height",
@@ -120,6 +123,7 @@
       "prodImg": "AMH-6633.png",
       "prodTitle": "Maize F1",
       "prodCode":"Arunodaya4",
+      "prodType":"Maize",
       "properties": [
         {
           "propName": "Plant Height",
@@ -157,6 +161,7 @@
       "prodImg": "Sri Byarava-2468.png",
       "prodTitle": "Maize F1",
       "prodCode":"Arunodaya5",
+      "prodType":"Maize",
       "properties": [
         {
           "propName": "Plant Height",
@@ -194,6 +199,7 @@
       "prodImg": "JP-2007.png",
       "prodTitle": "Maize F1",
       "prodCode":"Arunodaya6",
+      "prodType":"Maize",
       "properties": [
         {
           "propName": "Plant Height",
@@ -231,6 +237,7 @@
       "prodImg": "AMH-8109.png",
       "prodTitle": "Maize F1",
       "prodCode":"Arunodaya7",
+      "prodType":"Maize",
       "properties": [
         {
           "propName": "Plant Height",
@@ -268,6 +275,7 @@
       "prodImg": "ASH-100.png",
       "prodTitle": "Sunower F1",
       "prodCode":"Arunodaya8",
+      "prodType":"Sunflower",
       "properties": [
         {
           "propName": "Plant Height",
@@ -305,6 +313,7 @@
       "prodImg": "ASH-Monitor.png",
       "prodTitle": "Sunower F1",
       "prodCode":"Arunodaya9",
+      "prodType":"Sunflower",
       "properties": [
         {
           "propName": "Plant Height",
@@ -342,6 +351,7 @@
       "prodImg": "Arunodaya Gold.png",
       "prodTitle": "Sunower F1",
       "prodCode":"Arunodaya10",
+      "prodType":"Sunflower",
       "properties": [
         {
           "propName": "Plant Height",
@@ -379,6 +389,7 @@
       "prodImg": "NSH - Apsara.png",
       "prodTitle": "Sunower F1",
       "prodCode":"Arunodaya11",
+      "prodType":"Sunflower",
       "properties": [
         {
           "propName": "Plant Height",
@@ -416,6 +427,7 @@
       "prodImg": "Lakshmi-352.png",
       "prodTitle": "Bajra F1",
       "prodCode":"Arunodaya12",
+      "prodType":"Bajra",
       "properties": [
         {
           "propName": "Plant Height",
@@ -449,6 +461,7 @@
       "prodImg": "Lakshmi-357.png",
       "prodTitle": "Bajra F1",
       "prodCode":"Arunodaya13",
+      "prodType":"Bajra",
       "properties": [
         {
           "propName": "Plant Height",
@@ -482,6 +495,7 @@
       "prodImg": "APH-8181.png",
       "prodTitle": "Paddy F1 (short duration)",
       "prodCode":"Arunodaya14",
+      "prodType":"Paddy",
       "properties": [
         {
           "propName": "Crop duration",
@@ -523,6 +537,7 @@
       "prodImg": "APH-9696.png",
       "prodTitle": "Paddy F1 (short duration)",
       "prodCode":"Arunodaya15",
+      "prodType":"Paddy",
       "properties": [
         {
           "propName": "Crop duration",
@@ -564,6 +579,7 @@
       "prodImg": "Sonam 125.png",
       "prodTitle": "Paddy Selection",
       "prodCode":"Arunodaya16",
+      "prodType":"Paddy",
       "properties": [
         {
           "propName": "Crop duration",
@@ -605,6 +621,7 @@
       "prodImg": "Aditya.png",
       "prodTitle": "Paddy Selection",
       "prodCode":"Arunodaya17",
+      "prodType":"Paddy",
       "properties": [
         {
           "propName": "Crop duration",
@@ -634,6 +651,7 @@
       "prodImg": "Divya.png",
       "prodTitle": "Paddy Selection",
       "prodCode":"Arunodaya18",
+      "prodType":"Paddy",
       "properties": [
         {
           "propName": "Crop duration",
