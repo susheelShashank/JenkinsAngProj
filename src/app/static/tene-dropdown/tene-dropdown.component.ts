@@ -18,6 +18,7 @@ export class  TeneDropdownComponent implements OnInit {
   private camsonDataJSON: any = [];
   private arunodayaDataJSON: any = [];
   public productList: ProductListData[] = [];
+  public SearchProduct: any = {};
   routeAnimationsElements = ROUTE_ANIMATIONS_ELEMENTS;
   versions = env.versions;
   productFilter=productFilterPipe;

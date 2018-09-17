@@ -15,6 +15,7 @@ import { AuthGuardService } from './auth/auth-guard.service';
 import { AnimationsService } from './animations/animations.service';
 import { TitleService } from './title/title.service';
 import { reducers, metaReducers } from './core.state';
+import { LanguageLoaderService } from './service/language-loader.service';
 
 @NgModule({
   imports: [
@@ -35,8 +36,9 @@ import { reducers, metaReducers } from './core.state';
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
-        useFactory: HttpLoaderFactory,
-        deps: [HttpClient]
+        //useFactory: HttpLoaderFactory,
+        //deps: [HttpClient]
+        useClass: LanguageLoaderService
       }
     })
   ],
@@ -64,7 +66,7 @@ export class CoreModule {
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(
     http,
-    `${environment.i18nPrefix}/assets/i18n/`,
+    `./assets/i18n/`,
     '.json'
   );
 }

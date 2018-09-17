@@ -1,23 +1,25 @@
 <!doctype html>
 <html>
 <head>
-<script>
-        var loc = ""+document.location;
-        var base = "/";
-        if(loc.indexOf("file:/") == 0 ||loc.indexOf("http:/") == 0)
-        {
-        //alert("adadad");
-        var i = loc.lastIndexOf("/");
-        //alert("Inside,..."+i);
-        base = loc.substring(0,i+1);
-        }
-        document.write("<base href='" + base + "' />");
+    <script>
+        // var loc = ""+document.location;
+        // var base = "/";
+        // if(loc.indexOf("file:/") == 0 ||loc.indexOf("http:/") == 0)
+        // {
+        // //alert("adadad");
+        // var i = loc.lastIndexOf("/");
+        // //alert("Inside,..."+i);
+        // base = loc.substring(0,i+1);
+        // }
+        // document.write("<base href='" + base + "' />");
         //alert(document.location);
+        
         </script>
+        <script>document.write('<base href="' + document.location + '" />');</script>
+
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
-  
-  <title>AngularNgrxMaterialStarter</title>
+  <title>Orbi Seed International</title>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -98,5 +100,5 @@
 
     ga('create', 'UA-53234284-5', 'auto');
   </script>
-<script type="text/javascript" src="runtime.d7ba44eb86818574646f.js"></script><script type="text/javascript" src="polyfills.55f51d6a99d05f1fb9e9.js"></script><script type="text/javascript" src="main.3524bc170da9263c3268.js"></script></body>
+<script type="text/javascript" src="runtime.2c6d176045f7a20d5b51.js"></script><script type="text/javascript" src="polyfills.55f51d6a99d05f1fb9e9.js"></script><script type="text/javascript" src="main.51a10f19cd6bf70867bb.js"></script></body>
 </html>
