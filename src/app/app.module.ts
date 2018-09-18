@@ -15,7 +15,9 @@ import {HttpClientModule} from '@angular/common/http';
 import{HttpModule} from '@angular/http';
 import { ProductListService } from '@app/static/services/productList.service';
 import { productFilterPipe } from './Pipes/product-filter.pipe';
-import {FormsModule} from '@angular/forms' 
+import {FormsModule} from '@angular/forms' ;
+import {MatTabsModule} from "@angular/material";
+
 
 
 
@@ -39,7 +41,8 @@ import {FormsModule} from '@angular/forms'
     MatExpansionModule,
     HttpClientModule,
     HttpModule,
-    FormsModule
+    FormsModule,
+    MatTabsModule
   ],
   declarations: [AppComponent, productFilterPipe],
   providers: [ProductListService],
