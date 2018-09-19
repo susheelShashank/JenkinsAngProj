@@ -16,7 +16,6 @@ import{HttpModule} from '@angular/http';
 import { ProductListService } from '@app/static/services/productList.service';
 import { productFilterPipe } from './Pipes/product-filter.pipe';
 import {FormsModule} from '@angular/forms' ;
-import {MatTabsModule} from "@angular/material";
 
 
 
@@ -42,7 +41,8 @@ import {MatTabsModule} from "@angular/material";
     HttpClientModule,
     HttpModule,
     FormsModule,
-    MatTabsModule
+    
+    
   ],
   declarations: [AppComponent, productFilterPipe],
   providers: [ProductListService],

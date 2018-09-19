@@ -49,7 +49,21 @@ padding: 8px;
 tr:nth-child(even) {
 background-color: #dddddd;
 }
-
+.Search-Container
+{
+  float: left;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background:white;
+  font-size: 17px;
+  cursor: pointer;
+  position: absolute;
+	width: 20%;
+	height: 30px;
+	margin: 0;
+	font-family: inherit;
+}
 
 
 

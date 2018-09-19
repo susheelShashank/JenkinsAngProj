@@ -12,7 +12,8 @@ import { OrbiPartnerDetailsComponent } from '@app/static/orbi-partners-details/o
 import { OrbiHomeComponent } from '@app/static/orbi-home/orbi-home.component';
 import {OrbiBhalsarComponent } from '@app/static/orbi-bhalsar/orbi-bhalsar.component';
 import { OrbiCamsonComponent} from '@app/static/orbi-camson/orbi-camson.component';
-import {ProductDetailComponent } from '@app/static/product-detail/product-detail.component'
+import {ProductDetailComponent } from '@app/static/product-detail/product-detail.component';
+import {OrbiProductChipsComponent} from '../static/common/orbi-product-chips/orbi-product-chips.component'
 const routes: Routes = [
   {
     path: 'Home',
@@ -53,7 +54,6 @@ const routes: Routes = [
     component: OrbiPartnerDetailsComponent,
     data:{title:'orbi.menu.teneDropdown'}
   },
-  
   /*{
     path: 'details/:pId', component: ProductDetailComponent, 
    

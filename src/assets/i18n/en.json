@@ -25,6 +25,10 @@
     {
       "screenTitle":"Home"
     },
+    "productChips":
+    {
+     "screenTitle":"Chips"
+    },
     "title": "ORBI Seed International",
   "title.short": "ORBI Seed",
   "header.github": "Project Github Repository",

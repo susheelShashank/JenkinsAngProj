@@ -31,7 +31,7 @@ export class OrbiPartnersComponent implements OnInit {
     public getImgPath(img: string): string {
       if(img.indexOf('http') !== -1)
         return img;
-      return '/assets/imgs/orbi/partners/'+img;
+      return './assets/imgs/orbi/partners/'+img;
     }
   
   }

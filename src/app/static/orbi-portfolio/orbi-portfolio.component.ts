@@ -27,7 +27,7 @@ export class OrbiPortfolioComponent implements OnInit {
     public getImgPath(img: string): string {
       if(img.indexOf('http') !== -1)
         return img;
-      return '../../assets/imgs/orbi/Portfolio/'+img;
+      return './assets/imgs/orbi/Portfolio/'+img;
     }
   }
 

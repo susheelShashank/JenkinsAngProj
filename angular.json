@@ -82,7 +82,7 @@
                 {
                   "type": "bundle",
                   "name": "main",
-                  "baseline": "1000kb",
+                  "baseline": "1500kb",
                   "warning": "50kb",
                   "error": "100kb"
                 }

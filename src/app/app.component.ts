@@ -52,7 +52,8 @@ export class AppComponent implements OnInit, OnDestroy {
     /*{ link: 'features', label: 'orbi.menu.features' },
     { link: 'features', label: 'orbi.menu.features' },*/
     { link: 'examples', label: 'orbi.menu.examples' },
-    {link:'contact',label:'orbi.contact.screenTitle'}
+    {link:'contact',label:'orbi.contact.screenTitle'},
+    //{link:'chips',label:'orbi.productChips.screenTitle'}
     
     //{link:'orbi-Team',label:'orbi.team.screenTitle'}
     //{link:'orbi-partners',label:'orbi.partner.orbiPartners'}

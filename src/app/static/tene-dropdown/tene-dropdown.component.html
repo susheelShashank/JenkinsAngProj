@@ -5,18 +5,21 @@
     </div>
   </div>
   
-    
-    
   <!--input class="bx--search-input"
   type="text" role="search" id="search__input-1"
   placeholder="Search assets" aria-labelledby="search-input-label-2"
   [(ngModel)]="queryString" (ngModelChange)="filterProducts()"-->
 
   <div ng-app="myApp" ng-controller="charactersCtrl">
-      
+      <mat-chip-list #chipList>
+        <p>List:</p>
+        
+      <mat-chip *ngFor="let x of productListService.brandsList">{{x}}</mat-chip>
+        </mat-chip-list>
+        <br>
     
-
-      <input type="text"  name="SearchProduct"  [(ngModel)]="SearchProduct" (ngModelChange)="ProductFilter()" placeholder="search product here" >
+      <input type="text"  class="Search-Container" name="SearchProduct"  [(ngModel)]="SearchProduct" (ngModelChange)="ProductFilter()" placeholder="search product here">
+    <br>
     <br>
     <br>
 
@@ -28,16 +31,17 @@
       <div *ngFor="let prod of productList" class="col-md-2 col-lg-4 cardBottomGap" [ngClass]="routeAnimationsElements" >
       <mat-card style="background-color: #afc094;">
           <mat-chip color="primary" style="text-transform: capitalize" selected>{{prod.providerComp}}</mat-chip>
-
-            <img mat-card-image style="height: 250px;"src="/assets/imgs/orbi/products/{{prod.providerComp}}/{{prod.prodImg}}">
+            <img mat-card-image style="height: 250px;"src="./assets/imgs/orbi/products/{{prod.providerComp}}/{{prod.prodImg}}">
             <mat-card-title>{{prod.prodTitle}}</mat-card-title>
            <mat-card-content>
             <div >
+                
               <table>
-                <tr *ngFor="let prop of prod.properties">
+                 
+                <tr *ngFor="let prop of prod.properties" ng-show="showme">
                     
 
-                <th class="trimText" title="{{prop.propName}}" >{{prop.propName}}</th> 
+                <th  class="trimText" title="{{prop.propName}}" >{{prop.propName}}</th> 
              
                               
                 <td class="trimText1" title="{{prop.propValue}}">{{prop.propValue}}</td>

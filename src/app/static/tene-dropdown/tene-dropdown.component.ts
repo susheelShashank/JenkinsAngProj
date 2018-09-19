@@ -4,7 +4,8 @@ import { ROUTE_ANIMATIONS_ELEMENTS } from "@app/core";
 //import { Observable } from '@rxjs/Observable';
 import { ProductListService } from "@app/static/services/productList.service";
 import { ProductListData } from "@app/static/services/model/productList";
-import {productFilterPipe} from "../../Pipes/product-filter.pipe"
+import {productFilterPipe} from "../../Pipes/product-filter.pipe";
+
 @Component({
   selector: "anms-tene-dropdown",
   templateUrl: "./tene-dropdown.component.html",
@@ -22,6 +23,7 @@ export class  TeneDropdownComponent implements OnInit {
   routeAnimationsElements = ROUTE_ANIMATIONS_ELEMENTS;
   versions = env.versions;
   private productFilter :productFilterPipe[];
+  
   constructor(private productListService: ProductListService) { 
   }
   
@@ -46,6 +48,9 @@ export class  TeneDropdownComponent implements OnInit {
       
       }
       public ProductFilter() : void {
+        var searchIndex=this.SearchProduct;
+        searchIndex.length();
+        console.log("The result ")
         var _this = this;
         var products_local = JSON.parse(JSON.stringify(this.productList))
         this.productList = products_local.filter(
@@ -53,6 +58,10 @@ export class  TeneDropdownComponent implements OnInit {
             if((''+JSON.stringify(o)).indexOf(_this.SearchProduct) !== -1)
             return o;
           }
+          
         );
-    
-        }}
+        
+        }
+        
+      }
+     
