@@ -15,10 +15,10 @@ export class  TeneDropdownComponent implements OnInit {
   private camsonJSON_URL: string = "/assets/data/Camson.json";
   private arunodayaJSON_URL: string = "/assets/data/Arunodaya.json";
   private balsarDataJSON: ProductListData[] = [];
-  private camsonDataJSON: any = [];
-  private arunodayaDataJSON: any = [];
+  private camsonDataJSON: ProductListData[] = [];
+  private arunodayaDataJSON: ProductListData[] = [];
   public productList: ProductListData[] = [];
-  public SearchProduct: string;
+  public SearchProduct: any = [];
   routeAnimationsElements = ROUTE_ANIMATIONS_ELEMENTS;
   versions = env.versions;
   private productFilter :productFilterPipe[];
@@ -29,18 +29,20 @@ export class  TeneDropdownComponent implements OnInit {
     this.productListService.getProductList(this.balsarJSON_URL)
       .subscribe((data)=>{
           this.balsarDataJSON=data; 
-          this.productList = this.productList.concat(this.balsarDataJSON); 
+          this.productList = this.productList.concat(this.balsarDataJSON,this.camsonDataJSON,this.arunodayaDataJSON); 
+          console.log(this.productList);
         });
-    this.productListService.getProductList(this.camsonJSON_URL)
+    /*this.productListService.getProductList(this.camsonJSON_URL)
       .subscribe((data)=>{
         this.camsonDataJSON = data;
-        this.productList = this.productList.concat(data);
+        this.productList = this.productList.concat(this.balsarDataJSON);
       });
     this.productListService.getProductList(this.arunodayaJSON_URL)
       .subscribe((data)=>{
         this.arunodayaDataJSON = data;
         this.productList = this.productList.concat(data);
-      });
+        this.productList.length;
+      });*/
       
       }
       public ProductFilter() : void {
@@ -53,10 +55,4 @@ export class  TeneDropdownComponent implements OnInit {
           }
         );
     
-      
-
-    
-  }   
-  
-   
-}
+        }}
