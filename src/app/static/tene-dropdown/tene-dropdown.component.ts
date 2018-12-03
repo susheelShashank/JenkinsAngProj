@@ -24,7 +24,7 @@ export class  TeneDropdownComponent implements OnInit {
   versions = env.versions;
   private productFilter :productFilterPipe[];
   
-  constructor(private productListService: ProductListService) { 
+  constructor(public productListService: ProductListService) { 
   }
   
   ngOnInit() {
