@@ -1,7 +1,6 @@
 
 
 
-## Getting started
 ```bash
 git clone https://github.com/tomastrajan/angular-ngrx-material-starter.git new-project
 cd new-project
